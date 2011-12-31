@@ -14,7 +14,6 @@ CGame::CGame(HINSTANCE hInst)
 {
 	m_dxManager = new CDXManager();
 	m_input = new CInput(m_hWnd,hInst);
-	m_hInst = hInst;
 	m_frame = 0;
 	m_lastTime = 0;
 	m_currentTime = 0;
