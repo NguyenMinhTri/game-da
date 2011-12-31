@@ -24,12 +24,12 @@ public:
 //////////////////////////////////////////////////////////////////////////
 // Sprites' Collection
 //////////////////////////////////////////////////////////////////////////
-class All_Sprite
+class AllSprite
 {
 public:
 
 	// Constructors
-	All_Sprite(LPDIRECT3DDEVICE9 d3ddev)
+	AllSprite(LPDIRECT3DDEVICE9 d3ddev)
 	{
 		// load all sprites in here
 	}
