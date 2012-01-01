@@ -34,13 +34,13 @@ public:
 	/////							WINDOW								//////
 	//////////////////////////////////////////////////////////////////////////
 	bool InitWindow(HINSTANCE hInst);
-	static LRESULT CALLBACK WinProc(HWND hWnd, UINT msg, LPARAM lParam, WPARAM wParam);
+	static LRESULT CALLBACK WinProc(HWND, UINT, LPARAM, WPARAM);
 	void ShowWin();
 	//////////////////////////////////////////////////////////////////////////
 	/////							GAME								//////
 	//////////////////////////////////////////////////////////////////////////
 	void InitObject();
-	int GameInit(HINSTANCE hInst);
+	int GameInit(HINSTANCE);
 	void GameRun();
 	void Render();
 	void Update();
