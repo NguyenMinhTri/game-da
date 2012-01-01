@@ -40,7 +40,7 @@ bool CGame::InitWindow(HINSTANCE hInst)
 	/*wc.hIcon = LoadIcon(hInst,(LPCTSTR)IDI_ICON1);*/
 	wc.hIcon = NULL;
 	wc.hIconSm = NULL;
-	wc.hInstance = m_hInst;
+	wc.hInstance = hInst;
 	wc.lpfnWndProc = (WNDPROC)WinProc;
 	wc.lpszClassName = "Prinny";
 	wc.lpszMenuName = NULL;
