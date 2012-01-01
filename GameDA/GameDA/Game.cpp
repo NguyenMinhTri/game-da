@@ -49,18 +49,18 @@ bool CGame::InitWindow(HINSTANCE hInst)
 	{
 		return false;
 	}
-	// Init Window
+	// Init Window	
 	m_hWnd = CreateWindow("Prinny",
-						  "Prinny",
-						   WS_OVERLAPPEDWINDOW,
-						   CW_USEDEFAULT,
-						   CW_USEDEFAULT,
-						   GAME_WIDTH,
-						   GAME_HEIGHT,
-						   NULL,
-						   NULL,
-						   hInst,
-						   NULL);
+		"Prinny",
+		WS_OVERLAPPEDWINDOW,
+		CW_USEDEFAULT,
+		CW_USEDEFAULT,
+		GAME_WIDTH,
+		GAME_HEIGHT,
+		NULL,
+		NULL,
+		hInst,
+		NULL);
 	if(m_hWnd == NULL)
 	{
 		return false;
@@ -226,6 +226,6 @@ void CGame::CreateText(char* s)
 	rect.bottom = rect.top + 20;
 	// Draw some text
 	m_font->DrawTextA(NULL,s,-1,&rect,0,fontColor);
-	
+
 }
 #pragma endregion 

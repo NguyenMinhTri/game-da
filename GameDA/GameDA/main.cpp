@@ -9,4 +9,4 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR nCmdLine,
 		game->GameRun();
 	}
 	return 0;
-}
+};
